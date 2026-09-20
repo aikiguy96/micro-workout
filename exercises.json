@@ -1,0 +1,443 @@
+{
+  "exercises": [
+    {
+      "id": "pushup",
+      "name": "Push-ups",
+      "category": "push",
+      "measurement": "reps",
+      "defaultTarget": 10,
+      "equipment": []
+    },
+    {
+      "id": "incline_pushup",
+      "name": "Incline Push-ups",
+      "category": "push",
+      "measurement": "reps",
+      "defaultTarget": 12,
+      "equipment": ["desk or bench"]
+    },
+    {
+      "id": "overhead_press",
+      "name": "DB Overhead Press",
+      "category": "push",
+      "measurement": "reps",
+      "defaultTarget": 8,
+      "equipment": ["dumbbells"]
+    },
+    {
+      "id": "dead_hang",
+      "name": "Dead Hang",
+      "category": "pull",
+      "measurement": "seconds",
+      "defaultTarget": 30,
+      "equipment": ["pull-up bar"]
+    },
+    {
+      "id": "pullup",
+      "name": "Pull-ups",
+      "category": "pull",
+      "measurement": "reps",
+      "defaultTarget": 5,
+      "equipment": ["pull-up bar"]
+    },
+    {
+      "id": "trx_inclined_row",
+      "name": "TRX Inclined Row",
+      "category": "pull",
+      "measurement": "reps",
+      "defaultTarget": 10,
+      "equipment": ["TRX"]
+    },
+    {
+      "id": "single_arm_row",
+      "name": "Single Arm Row",
+      "category": "pull",
+      "measurement": "reps_per_side",
+      "defaultTarget": 10,
+      "equipment": ["dumbbell"]
+    },
+    {
+      "id": "bodyweight_squat",
+      "name": "Bodyweight Squat",
+      "category": "squat",
+      "measurement": "reps",
+      "defaultTarget": 15,
+      "equipment": []
+    },
+    {
+      "id": "goblet_squat",
+      "name": "Goblet Squat",
+      "category": "squat",
+      "measurement": "reps",
+      "defaultTarget": 10,
+      "equipment": ["dumbbell or kettlebell"]
+    },
+    {
+      "id": "reverse_lunge",
+      "name": "Reverse Lunge",
+      "category": "squat",
+      "measurement": "reps_per_side",
+      "defaultTarget": 6,
+      "equipment": []
+    },
+    {
+      "id": "hip_hinge",
+      "name": "Hip Hinge",
+      "category": "hinge",
+      "measurement": "reps",
+      "defaultTarget": 12,
+      "equipment": []
+    },
+    {
+      "id": "romanian_deadlift",
+      "name": "DB Romanian Deadlift",
+      "category": "hinge",
+      "measurement": "reps",
+      "defaultTarget": 10,
+      "equipment": ["dumbbells"]
+    },
+    {
+      "id": "glute_bridge",
+      "name": "Glute Bridge",
+      "category": "hinge",
+      "measurement": "reps",
+      "defaultTarget": 15,
+      "equipment": []
+    },
+    {
+      "id": "plank",
+      "name": "Plank",
+      "category": "core",
+      "measurement": "seconds",
+      "defaultTarget": 30,
+      "equipment": []
+    },
+    {
+      "id": "side_plank",
+      "name": "Side Plank",
+      "category": "core",
+      "measurement": "seconds_per_side",
+      "defaultTarget": 20,
+      "equipment": []
+    },
+    {
+      "id": "bird_dog",
+      "name": "Bird Dog",
+      "category": "core",
+      "measurement": "reps_per_side",
+      "defaultTarget": 8,
+      "equipment": []
+    },
+    {
+      "id": "dead_bug",
+      "name": "Dead Bug",
+      "category": "core",
+      "measurement": "reps_per_side",
+      "defaultTarget": 8,
+      "equipment": []
+    },
+    {
+      "id": "calf_raise",
+      "name": "Calf Raise",
+      "category": "lower_leg",
+      "measurement": "reps",
+      "defaultTarget": 15,
+      "equipment": []
+    },
+    {
+      "id": "single_leg_balance",
+      "name": "Single Leg Balance",
+      "category": "balance",
+      "measurement": "seconds_per_side",
+      "defaultTarget": 30,
+      "equipment": []
+    },
+    {
+      "id": "calf_stretch",
+      "name": "Calf Stretch",
+      "category": "mobility",
+      "measurement": "seconds_per_side",
+      "defaultTarget": 30,
+      "equipment": []
+    },
+    {
+      "id": "hamstring_stretch",
+      "name": "Hamstring Stretch",
+      "category": "mobility",
+      "measurement": "seconds_per_side",
+      "defaultTarget": 30,
+      "equipment": []
+    },
+    {
+      "id": "hip_flexor_stretch",
+      "name": "Hip Flexor Stretch",
+      "category": "mobility",
+      "measurement": "seconds_per_side",
+      "defaultTarget": 30,
+      "equipment": []
+    },
+    {
+      "id": "doorway_chest_stretch",
+      "name": "Doorway Chest Stretch",
+      "category": "mobility",
+      "measurement": "seconds",
+      "defaultTarget": 30,
+      "equipment": []
+    },
+    {
+      "id": "thoracic_rotation",
+      "name": "Thoracic Rotation",
+      "category": "mobility",
+      "measurement": "reps_per_side",
+      "defaultTarget": 8,
+      "equipment": []
+    },
+    {
+      "id": "shoulder_circles",
+      "name": "Shoulder Circles",
+      "category": "mobility",
+      "measurement": "reps",
+      "defaultTarget": 10,
+      "equipment": []
+    }
+  ],
+
+  "prescriptions": [
+    {
+      "id": "desk_day",
+      "name": "Desk Day",
+      "description": "Balanced movement throughout the workday.",
+      "exercises": [
+        {
+          "exerciseId": "pushup",
+          "sets": 3,
+          "target": 10
+        },
+        {
+          "exerciseId": "bodyweight_squat",
+          "sets": 3,
+          "target": 15
+        },
+        {
+          "exerciseId": "dead_hang",
+          "sets": 3,
+          "target": 30
+        },
+        {
+          "exerciseId": "bird_dog",
+          "sets": 3,
+          "target": 8
+        }
+      ]
+    },
+    {
+      "id": "upper_body",
+      "name": "Upper Body",
+      "description": "Push and pull strength throughout the day.",
+      "exercises": [
+        {
+          "exerciseId": "pushup",
+          "sets": 3,
+          "target": 10
+        },
+        {
+          "exerciseId": "pullup",
+          "sets": 3,
+          "target": 5
+        },
+        {
+          "exerciseId": "trx_inclined_row",
+          "sets": 3,
+          "target": 10
+        },
+        {
+          "exerciseId": "dead_hang",
+          "sets": 3,
+          "target": 30
+        }
+      ]
+    },
+    {
+      "id": "lower_body",
+      "name": "Lower Body",
+      "description": "Leg, hip and balance work throughout the day.",
+      "exercises": [
+        {
+          "exerciseId": "bodyweight_squat",
+          "sets": 3,
+          "target": 15
+        },
+        {
+          "exerciseId": "reverse_lunge",
+          "sets": 3,
+          "target": 6
+        },
+        {
+          "exerciseId": "glute_bridge",
+          "sets": 3,
+          "target": 15
+        },
+        {
+          "exerciseId": "calf_raise",
+          "sets": 3,
+          "target": 15
+        }
+      ]
+    },
+    {
+      "id": "full_body_strength",
+      "name": "Full Body Strength",
+      "description": "Full-body resistance work in small doses.",
+      "exercises": [
+        {
+          "exerciseId": "goblet_squat",
+          "sets": 3,
+          "target": 10
+        },
+        {
+          "exerciseId": "pushup",
+          "sets": 3,
+          "target": 10
+        },
+        {
+          "exerciseId": "single_arm_row",
+          "sets": 3,
+          "target": 10
+        },
+        {
+          "exerciseId": "romanian_deadlift",
+          "sets": 3,
+          "target": 10
+        }
+      ]
+    },
+    {
+      "id": "mobility",
+      "name": "Mobility",
+      "description": "Mobility and stretching for a desk-heavy day.",
+      "exercises": [
+        {
+          "exerciseId": "doorway_chest_stretch",
+          "sets": 2,
+          "target": 30
+        },
+        {
+          "exerciseId": "thoracic_rotation",
+          "sets": 2,
+          "target": 8
+        },
+        {
+          "exerciseId": "hip_flexor_stretch",
+          "sets": 2,
+          "target": 30
+        },
+        {
+          "exerciseId": "hamstring_stretch",
+          "sets": 2,
+          "target": 30
+        },
+        {
+          "exerciseId": "calf_stretch",
+          "sets": 2,
+          "target": 30
+        },
+        {
+          "exerciseId": "shoulder_circles",
+          "sets": 2,
+          "target": 10
+        }
+      ]
+    },
+    {
+      "id": "push_pull",
+      "name": "Push + Pull",
+      "description": "Simple upper-body push and pull rotation.",
+      "exercises": [
+        {
+          "exerciseId": "pushup",
+          "sets": 3,
+          "target": 10
+        },
+        {
+          "exerciseId": "pullup",
+          "sets": 3,
+          "target": 5
+        },
+        {
+          "exerciseId": "overhead_press",
+          "sets": 3,
+          "target": 8
+        },
+        {
+          "exerciseId": "trx_inclined_row",
+          "sets": 3,
+          "target": 10
+        }
+      ]
+    },
+    {
+      "id": "no_equipment",
+      "name": "No Equipment",
+      "description": "Full-body prescription requiring no equipment.",
+      "exercises": [
+        {
+          "exerciseId": "bodyweight_squat",
+          "sets": 3,
+          "target": 15
+        },
+        {
+          "exerciseId": "pushup",
+          "sets": 3,
+          "target": 10
+        },
+        {
+          "exerciseId": "reverse_lunge",
+          "sets": 3,
+          "target": 6
+        },
+        {
+          "exerciseId": "bird_dog",
+          "sets": 3,
+          "target": 8
+        }
+      ]
+    },
+    {
+      "id": "strength_mobility",
+      "name": "Strength + Mobility",
+      "description": "Strength work balanced with mobility breaks.",
+      "exercises": [
+        {
+          "exerciseId": "bodyweight_squat",
+          "sets": 2,
+          "target": 15
+        },
+        {
+          "exerciseId": "pushup",
+          "sets": 2,
+          "target": 10
+        },
+        {
+          "exerciseId": "trx_inclined_row",
+          "sets": 2,
+          "target": 10
+        },
+        {
+          "exerciseId": "dead_hang",
+          "sets": 2,
+          "target": 30
+        },
+        {
+          "exerciseId": "hip_flexor_stretch",
+          "sets": 2,
+          "target": 30
+        },
+        {
+          "exerciseId": "thoracic_rotation",
+          "sets": 2,
+          "target": 8
+        }
+      ]
+    }
+  ]
+}
