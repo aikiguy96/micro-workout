@@ -1,1 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Micro Workout</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="app">
+
+        <header>
+            <h1>Micro Workout</h1>
+        </header>
+
+
+        <!-- Prescription selector -->
+
+        <section id="prescription-section">
+
+            <select id="prescription-select"
+                    aria-label="Workout prescription">
+            </select>
+
+            <p id="prescription-description"></p>
+
+        </section>
+
+
+        <!-- Progress -->
+
+        <section id="progress-section">
+
+            <div class="progress-header">
+
+                <span id="progress-text">
+                    0 of 0
+                </span>
+
+            </div>
+
+            <div class="progress-track">
+                <div id="progress-bar"></div>
+            </div>
+
+        </section>
+
+
+        <!-- Exercises are generated here -->
+
+        <section id="exercise-list">
+        </section>
+
+
+        <!-- Controls -->
+
+        <button id="reset-button"
+                type="button">
+
+            Reset
+
+        </button>
+
+    </main>
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
